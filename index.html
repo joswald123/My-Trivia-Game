@@ -10,10 +10,13 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="containerStart">
+
+
+    <div class="containerStart container">
 
         <div class="row">
             <div class="col-md-12">
@@ -25,13 +28,13 @@
     </div>
 
 
-    <div id="triviaGame" class="containerQuestions">
+    <div id="triviaGame" class="containerQuestions container">
+        
 
         <div class="row">
             <div class="col-md-12">
-                <div class="tittle">Spongebob Trivia Game</div>
                 <h2 class=timer id="timeRemaining"></h2>
-                <div id="question" class="question"></div>
+                <div id="question" class="question"></div> <br>
                 <label class="option"><input type="radio" name="option" value="1" /><span id="opt1"></span></label>
                 <label class="option"><input type="radio" name="option" value="2" /><span id="opt2"></span></label>
                 <label class="option"><input type="radio" name="option" value="3" /><span id="opt3"></span></label>
@@ -41,27 +44,31 @@
 
     </div>
 
-    <div id="answer" class="containerAnswer" style="display: none;">
+    <div id="answer" class="containerAnswer container" style="display: none;">
+       
         <div class="row">
             <div class="col-md-12">
+                <h2 class="textAnswer" id="textAnswer"></h2>
+            </div>
+        </div>
 
-                <h2 class=textAnswer id="textAnswer"></h2>
-                <img id="answerImage" />
-
+        <div class="row">
+            <div class="col-md-12 col-md-offset-4">
+                 <img id="answerImage"/>
             </div>
         </div>
 
 
     </div>
 
-    <div id="result" class="container-result" style="display:none;">
+    <div id="result" class="container-result container">
         <div class="row">
             <div class="col-md-12">
                 <h2 class=timer id="timeRemaining"></h2>
                 <h2 class="resultsGame" id="correct"></h2>
                 <h2 class="resultsGame" id="incorrect"></h2>
-                <h2 class="resultsGame" id="answered"></h2>
-                <button id="startOver" class="start-trivia" onclick="loadQuestions();">Start Over?</button>
+                <h2 class="resultsGame" id="unanswered"></h2>
+                <button id="startOver" class="start-trivia-again">Start Over?</button>
 
             </div>
         </div>
