@@ -50,7 +50,7 @@ $(document).ready(function () {
         "option 3": " Saxophone",
         "option 4": " Clarinet",
         "answer": "4",
-        "urlImg": "./assets/images/answer5.webp"
+        "urlImg": "./assets/images/answer5.gif"
     }, {
         "question": "Sandy is not native to Bikini Bottom. Where is she from?",
         "option 1": " Arizona",
@@ -58,7 +58,7 @@ $(document).ready(function () {
         "option 3": " Arkansas",
         "option 4": " Tennessee",
         "answer": "2",
-        "urlImg": "./assets/images/answer6.webp"
+        "urlImg": "./assets/images/answer6.gif"
     }, {
         "question": "What is the first line that Spongebob utters in the series?",
         "option 1": " I can’t wait Gary!",
@@ -82,7 +82,7 @@ $(document).ready(function () {
         "option 3": " The Musty Krab",
         "option 4": " The Rusty Krab",
         "answer": "4",
-        "urlImg": "./assets/images/answer9.webp"
+        "urlImg": "./assets/images/answer9.gif"
 
     }]
 

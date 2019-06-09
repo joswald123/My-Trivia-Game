@@ -7,9 +7,9 @@ body {
 }
 
 .containerStart {
-    height: 60%;
-    width: 60%;
-    position: absolute;
+    height: 70%;
+    width: 70%;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -41,13 +41,15 @@ body {
 .start-trivia {
     border: none;
     outline: none;
-    background: rgba(247, 235, 98, 0.925);
+    background: rgba(247, 235, 98, 0.856);
     width: 210px;
     height: 55px;   
     border-radius: 20px;
     cursor: pointer;
-    margin: 20% 20% 20% 5%;
+    text-align: center; 
+    margin-top: 50%;
     vertical-align: middle;
+    
 
 }
 .start-trivia:hover {
@@ -56,9 +58,9 @@ body {
 }
 
 .containerQuestions {
-    height: 80%;
+    height: 85%;
     width: 60%;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -71,7 +73,26 @@ body {
 }
 
 .timer {
+    font-size: 30px;
+    margin-top: 5%;
     text-align: center;
+    font-weight: normal;
+    color:transparent;
+    font-family: 'Lobster', cursive;
+    background: linear-gradient(
+                50deg,
+                rgb(0, 255, 0) 20%,
+                yellow 80%,
+                rgb(0, 255, 55) 90%
+                );
+    -webkit-background-clip: text;
+}
+
+.question {
+    margin-top: 5%;
+    font-weight: bold;
+    text-align: center;
+    font-size-adjust: inherit;
 }
 
 .option {
@@ -83,6 +104,10 @@ body {
     margin: 5px 0 5px 5px;
     color: #000000;
     border-radius: 20px;
+    margin-top: 5%;
+    background: rgba(147, 236, 4, 0.629);
+    
+    
 
 }
 
@@ -92,9 +117,9 @@ body {
 
 }
 .containerAnswer {
-    height: 70%;
-    width: 60%;
-    position: absolute;
+    height: 75%;
+    width: 75%;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -112,6 +137,7 @@ body {
         font-weight: normal;
         color:transparent;
         font-family: 'Lobster', cursive;
+        margin-top: 10%; 
         background: linear-gradient(
                     50deg,
                     rgb(0, 195, 255) 20%,
@@ -129,6 +155,7 @@ body {
         font-weight: normal;
         color:transparent;
         font-family: 'Lobster', cursive;
+        margin-top: 10%; 
         background: linear-gradient(
                     50deg,
                     rgb(0, 195, 255) 20%,
@@ -136,18 +163,20 @@ body {
                     rgb(0, 195, 255)90%
                     );
         -webkit-background-clip: text;
+        
 
 }
 #answerImage{
     box-shadow: 0 0 8px 3px rgb(225, 240, 20);
-    margin: 10% 20% 10% 30%;
+    margin-right: 30%;
+    margin-top: 10%;
 }
 
 
 .container-result {
-    height: 60%;
-    width: 60%;
-    position: absolute;
+    height: 70%;
+    width: 70%;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -168,4 +197,6 @@ body {
     margin: 20% 20% 20% 5%;
     vertical-align: middle;
 }
+
+
 
