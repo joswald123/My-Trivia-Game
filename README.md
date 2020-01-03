@@ -32,6 +32,6 @@ If you want to see the code of this application, follow the steps below:
 
 ## Quick Start
 
-1.  Clone the repo - Git clone `https://github.com/joswald123/GifTastic-App.git`
+1.  Clone the repo - Git clone `https://github.com/joswald123/My-Trivia-Game.git`
 2.  Go to your project folder.
 3.  Open the index.Html tab and with a right click open it in a default browser.
